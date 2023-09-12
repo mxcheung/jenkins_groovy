@@ -8,3 +8,6 @@ def map = [name: "Jerry", age: 42, city: "New York"]
 println map["name"] 
 
 echo "hello"
+
+def list = ['Grace','Rob','Emmy']
+assert ('Emmy' in list)  
